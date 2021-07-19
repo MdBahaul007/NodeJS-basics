@@ -99,7 +99,18 @@ const fs = require("fs");
 
 
 
-fs.writeFile("osModule.js","sdh",()=>{
+// fs.writeFile("osModule.js","sdh",()=>{
+//     console.log("file created");
+// })
+
+// fs.writeFile("pathModule.js","sdh",()=>{
+//     console.log("file created");
+// })
+
+fs.mkdir("importExport",()=>{
+    console.log("folder created");
+});
+
+fs.writeFile("importExport/index.js","hello",(err)=>{
     console.log("file created");
 })
-

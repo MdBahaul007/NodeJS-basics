@@ -82,7 +82,7 @@ const fs = require("fs");
 // })
 
 
-//reanaming  the file
+//renaming  the file
 // fs.rename("async/readme.txt","async/readme1.txt",(err)=>{
 //     console.log("file renamed");
 // })
@@ -107,10 +107,26 @@ const fs = require("fs");
 //     console.log("file created");
 // })
 
-fs.mkdir("importExport",()=>{
-    console.log("folder created");
-});
+// fs.mkdir("WebServer",()=>{
+//     console.log("folder created");
+// })
 
-fs.writeFile("importExport/index.js","hello",(err)=>{
-    console.log("file created");
-})
+// fs.writeFile("WebServer/http.js","hello",()=>{
+//     console.log("file created");
+// })
+
+// fs.mkdir("NodeJSON",()=>{
+//     console.log("folder created");
+// })
+
+// fs.writeFile("NodeJSON/index.js","hii",()=>{
+//     console.log("file created!!!!");
+// })
+
+// fs.mkdir("fetchAPI",()=>{
+//     console.log("Folder created");
+// })
+
+// fs.writeFile("fetchApi/index.js","hii",()=>{
+//     console.log("file created =");
+// })

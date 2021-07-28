@@ -20,3 +20,6 @@ const name="mbm";
 
 //above thing in one line suing obj destructuring
 module.exports={add,sub,multi,name};
+
+
+//every data in nodejs is private so we basically use exports to make the data public
